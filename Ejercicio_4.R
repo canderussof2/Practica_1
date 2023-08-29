@@ -1,6 +1,7 @@
 #Seteo el directorio
 getwd()
-setwd("/Users/cande/Desktop/Cande/UBA/2do año/Laboratorio de Procesamiento de Información Meteorológica/Práctica/Prácticas/Practica 1/")
+#setwd("/Users/cande/Desktop/Cande/UBA/2do año/Laboratorio de Procesamiento de Información Meteorológica/Práctica/Prácticas/Practica 1/")
+setwd("/home/clinux01/Escritorio/Cande Labo Martes/Practica_1/")
 getwd()
 rm(list=ls()) #Limpio el environment
 
