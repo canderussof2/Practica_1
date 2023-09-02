@@ -1,9 +1,10 @@
 #Resolución del ejercicio 10 de la Práctica 1
 
 #----------- Buenas costumbres en R -----------
-#Primero seteo mi directorio de trabajo. Seteo para Windows y Linux
-setwd("/Users/cande/Desktop/Cande/UBA/2do año/Laboratorio de Procesamiento de Información Meteorológica/Práctica/Prácticas/Practica 1/")
+#Primero seteo mi directorio de trabajo. Seteo para Windows y Linux. Descomento dependiendo en que dispositivo estoy
+#setwd("/Users/cande/Desktop/Cande/UBA/2do año/Laboratorio de Procesamiento de Información Meteorológica/Práctica/Prácticas/Practica 1/")
 #setwd("/home/clinux01/Escritorio/Cande Labo Martes/Practica_1/")
+setwd("/Users/Usuario/Desktop/Cande/Laboratorio de Procesamiento de Información meteorológica/Practica_1/")
 getwd() #Para chequear que se haya seteado correctamente
 rm(list=ls()) #Para limpiar el environment
 
@@ -19,7 +20,7 @@ materias<-readline("Ingrese la cantidad de materias que aprobó (con final inclu
 largo<-nchar(libreta)
 
 #Utilizo la función substr para quedarme con la cantidad de caracteres que quiero
-numero<-substr(libreta,largo-8,largo-3)
+numero<-substr(libreta,largo-6,largo-3)
 anio<-substr(libreta,largo-1,largo)
 
 #Uno dos variables 
